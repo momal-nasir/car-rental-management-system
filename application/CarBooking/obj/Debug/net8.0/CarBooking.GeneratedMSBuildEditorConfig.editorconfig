@@ -1,0 +1,103 @@
+is_global = true
+build_property.TargetFramework = net8.0
+build_property.TargetFrameworkIdentifier = .NETCoreApp
+build_property.TargetFrameworkVersion = v8.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = CarBooking
+build_property.RootNamespace = CarBooking
+build_property.ProjectDir = C:\Users\momal\Downloads\CarBooking\CarBooking\CarBooking\CarBooking\
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 
+build_property.RazorLangVersion = 8.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = C:\Users\momal\Downloads\CarBooking\CarBooking\CarBooking\CarBooking
+build_property._RazorSourceGeneratorDebug = 
+build_property.EffectiveAnalysisLevelStyle = 8.0
+build_property.EnableCodeStyleSeverity = 
+
+[C:/Users/momal/Downloads/CarBooking/CarBooking/CarBooking/CarBooking/Pages/AdminDashboard.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWRtaW5EYXNoYm9hcmQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/momal/Downloads/CarBooking/CarBooking/CarBooking/CarBooking/Pages/BookCar.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQm9va0Nhci5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/momal/Downloads/CarBooking/CarBooking/CarBooking/CarBooking/Pages/Cars.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ2Fycy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/momal/Downloads/CarBooking/CarBooking/CarBooking/CarBooking/Pages/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRXJyb3IuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/momal/Downloads/CarBooking/CarBooking/CarBooking/CarBooking/Pages/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/momal/Downloads/CarBooking/CarBooking/CarBooking/CarBooking/Pages/Login.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTG9naW4uY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/momal/Downloads/CarBooking/CarBooking/CarBooking/CarBooking/Pages/Logout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTG9nb3V0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/momal/Downloads/CarBooking/CarBooking/CarBooking/CarBooking/Pages/ManageCars.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTWFuYWdlQ2Fycy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/momal/Downloads/CarBooking/CarBooking/CarBooking/CarBooking/Pages/ManageUsers.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTWFuYWdlVXNlcnMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/momal/Downloads/CarBooking/CarBooking/CarBooking/CarBooking/Pages/Payment.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUGF5bWVudC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/momal/Downloads/CarBooking/CarBooking/CarBooking/CarBooking/Pages/Privacy.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUHJpdmFjeS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/momal/Downloads/CarBooking/CarBooking/CarBooking/CarBooking/Pages/Receipt.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUmVjZWlwdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/momal/Downloads/CarBooking/CarBooking/CarBooking/CarBooking/Pages/Register.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUmVnaXN0ZXIuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/momal/Downloads/CarBooking/CarBooking/CarBooking/CarBooking/Pages/ReturnCar.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUmV0dXJuQ2FyLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/momal/Downloads/CarBooking/CarBooking/CarBooking/CarBooking/Pages/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/momal/Downloads/CarBooking/CarBooking/CarBooking/CarBooking/Pages/ViewBookings.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcVmlld0Jvb2tpbmdzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/momal/Downloads/CarBooking/CarBooking/CarBooking/CarBooking/Pages/ViewPayments.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcVmlld1BheW1lbnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/momal/Downloads/CarBooking/CarBooking/CarBooking/CarBooking/Pages/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/momal/Downloads/CarBooking/CarBooking/CarBooking/CarBooking/Pages/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/momal/Downloads/CarBooking/CarBooking/CarBooking/CarBooking/Pages/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-ig0mhp83az
