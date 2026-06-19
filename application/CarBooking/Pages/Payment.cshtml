@@ -1,0 +1,39 @@
+﻿@page
+@model CarBooking.Pages.PaymentModel
+
+<h2>Payment</h2>
+
+<p><strong>Rent Amount:</strong> @Model.RentAmount</p>
+<p><strong>Security Fee:</strong> @Model.SecurityFee</p>
+<p><strong>Total:</strong> @Model.TotalAmount</p>
+
+<form method="post">
+
+    <div>
+        <label>Name:</label>
+        <input type="text" asp-for="CustomerName" required />
+    </div>
+
+    <div>
+        <label>Contact Number:</label>
+        <input type="text" asp-for="ContactNumber" required />
+    </div>
+
+    <div>
+        <label>Payment Method:</label>
+        <select asp-for="PaymentMethod">
+            <option value="Bank">Bank</option>
+            <option value="Easypaisa">Easypaisa</option>
+        </select>
+    </div>
+
+    <div>
+        <label>Account Number:</label>
+        <input type="text" asp-for="AccountNumber" required />
+    </div>
+
+    <br />
+
+    <button type="submit">Pay Now</button>
+
+</form>

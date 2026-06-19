@@ -1,0 +1,29 @@
+﻿@page
+@model CarBooking.Pages.LoginModel
+
+<h2>Login</h2>
+
+<form method="post">
+    <div>
+        <label>Email:</label>
+        <input type="email" asp-for="Email" required />
+    </div>
+
+    <div>
+        <label>Password:</label>
+        <input type="password" asp-for="Password" required />
+    </div>
+
+    <button type="submit">Login</button>
+</form>
+
+<br />
+
+<p>Don't have an account?</p>
+<a href="/Register">Register as Customer</a>
+
+
+@if (Model.Message != null)
+{
+    <p>@Model.Message</p>
+}

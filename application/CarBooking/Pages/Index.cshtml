@@ -1,0 +1,25 @@
+﻿@page
+@model IndexModel
+
+@{
+    ViewData["Title"] = "Home page";
+    var email = HttpContext.Session.GetString("UserEmail");
+    
+}
+
+@if (email != null)
+{
+    <p>Welcome, @email</p>
+    <a href="/Logout">Logout</a>
+}
+else
+{
+    <p>You are not logged in</p>
+    <a href="/Login">Login</a>
+    <a href="/Register">Register</a>
+}
+<a href="/Logout">Logout</a>
+<div class="text-center">
+    <h1 class="display-4">Welcome</h1>
+    <p>Learn about <a href="https://learn.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
+</div>

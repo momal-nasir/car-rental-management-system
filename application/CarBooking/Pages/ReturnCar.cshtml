@@ -1,0 +1,26 @@
+﻿@page
+@model CarBooking.Pages.ReturnCarModel
+
+<h2>Return Car</h2>
+
+<form method="post">
+    <div>
+        <label>Booking ID:</label>
+        <input type="number" asp-for="BookingID" min="1" required />
+    </div>
+
+    <div>
+        <label>Damage:</label>
+        <select asp-for="DamageStatus">
+            <option value="false">No</option>
+            <option value="true">Yes</option>
+        </select>
+    </div>
+
+    <button type="submit">Process Return</button>
+</form>
+
+@if (Model.Message != null)
+{
+    <p>@Model.Message</p>
+}

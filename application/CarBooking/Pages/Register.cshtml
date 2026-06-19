@@ -1,0 +1,28 @@
+﻿@page
+@model CarBooking.Pages.RegisterModel
+
+<h2>Register</h2>
+
+<form method="post">
+    <div>
+        <label>Name:</label>
+        <input type="text" asp-for="User.Name" required />
+    </div>
+
+    <div>
+        <label>Email:</label>
+        <input type="email" asp-for="User.Email" required />
+    </div>
+
+    <div>
+        <label>Password:</label>
+        <input type="password" asp-for="User.Password" required />
+    </div>
+
+    <button type="submit">Register</button>
+</form>
+
+@if (Model.Message != null)
+{
+    <p>@Model.Message</p>
+}

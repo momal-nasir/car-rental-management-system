@@ -1,0 +1,32 @@
+﻿@page
+@model CarBooking.Pages.ManageUsersModel
+
+<h2>Manage Customers</h2>
+
+<table border="1">
+    <tr>
+        <th>ID</th>
+        <th>Name</th>
+        <th>Email</th>
+        <th>Action</th>
+    </tr>
+
+    @foreach (var user in Model.UsersList)
+    {
+        <tr>
+            <td>@user.UserID</td>
+            <td>@user.Name</td>
+            <td>@user.Email</td>
+            <td>
+                <a href="/ManageUsers?deleteId=@user.UserID">Delete</a>
+            </td>
+        </tr>
+    }
+    @if (TempData["Message"] != null)
+    {
+        <p style="color:red">@TempData["Message"]</p>
+    }
+</table>
+
+<br />
+<a href="/AdminDashboard">Back</a>

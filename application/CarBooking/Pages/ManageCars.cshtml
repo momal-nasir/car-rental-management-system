@@ -1,0 +1,39 @@
+﻿@page
+@model CarBooking.Pages.ManageCarsModel
+
+<h2>Manage Cars</h2>
+
+<table border="1">
+    <tr>
+        <th>ID</th>
+        <th>Model</th>
+        <th>Brand</th>
+        <th>Status</th>
+        <th>Action</th>
+    </tr>
+
+    @foreach (var car in Model.CarsList)
+    {
+        <tr>
+            <td>@car.CarID</td>
+            <td>@car.Model</td>
+            <td>@car.Brand</td>
+            <td>
+                @(car.Availability ? "Available" : "Under Maintenance")
+            </td>
+            <td>
+                @if (car.Availability)
+                {
+                    <a href="/ManageCars?maintenanceId=@car.CarID">Set Maintenance</a>
+                }
+                else
+                {
+                    <a href="/ManageCars?availableId=@car.CarID">Set Available</a>
+                }
+            </td>
+        </tr>
+    }
+</table>
+
+<br />
+<a href="/AdminDashboard">Back</a>

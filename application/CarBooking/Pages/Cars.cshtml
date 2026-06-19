@@ -1,0 +1,28 @@
+﻿@page
+@model CarBooking.Pages.CarsModel
+
+<h2>Available Cars</h2>
+
+<table border="1">
+    <tr>
+        <th>Model</th>
+        <th>Brand</th>
+        <th>Price Per Day</th>
+        <th>Action</th>
+    </tr>
+
+    @foreach (var car in Model.CarsList)
+    {
+        <tr>
+            <td>@car.Model</td>
+            <td>@car.Brand</td>
+            <td>@car.PricePerDay</td>
+            <td>
+                <a href="/BookCar?carId=@car.CarID">Book</a>
+            </td>
+        </tr>
+    }
+</table>
+
+<br />
+<a href="/Index">Back to Home</a>

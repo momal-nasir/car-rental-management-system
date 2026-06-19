@@ -1,0 +1,29 @@
+﻿@page
+@model CarBooking.Pages.ReceiptModel
+
+<h2>Payment Receipt</h2>
+
+<div style="border:1px solid black; padding:20px; width:400px;">
+
+    <p><strong>Payment ID:</strong> @Model.Payment.PaymentID</p>
+    <p><strong>Booking ID:</strong> @Model.Payment.BookingID</p>
+    <p>
+        <strong>Rental Period:</strong>
+        @Model.Booking.StartDate.ToShortDateString()
+        to
+        @Model.Booking.EndDate.ToShortDateString()
+    </p>
+    <p><strong>Rent Amount:</strong> @Model.Payment.RentAmount</p>
+    <p><strong>Security Fee:</strong> @Model.Payment.SecurityFee</p>
+    <p><strong>Total Paid:</strong> @Model.Payment.TotalPaid</p>
+    <p><strong>Date:</strong> @Model.Payment.PaymentDate.ToShortDateString()</p>
+
+    <p><strong>Name:</strong> @Model.Name</p>
+    <p><strong>Contact:</strong> @Model.Contact</p>
+    <p><strong>Payment Method:</strong> @Model.Method</p>
+
+</div>
+
+<br />
+
+<a href="/Cars">Back to Cars</a>

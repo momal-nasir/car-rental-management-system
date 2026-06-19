@@ -1,0 +1,25 @@
+﻿@page
+@model CarBooking.Pages.BookCarModel
+
+<h2>Book Car</h2>
+
+<form method="post">
+    <input type="hidden" asp-for="CarID" value="@Model.CarID" />
+
+    <div>
+        <label>Start Date:</label>
+        <input type="date" asp-for="StartDate" required />
+    </div>
+
+    <div>
+        <label>End Date:</label>
+        <input type="date" asp-for="EndDate" required />
+    </div>
+
+    <button type="submit">Confirm Booking</button>
+</form>
+
+@if (Model.Message != null)
+{
+    <p>@Model.Message</p>
+}
